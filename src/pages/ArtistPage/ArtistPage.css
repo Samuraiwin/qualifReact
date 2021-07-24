@@ -1,0 +1,32 @@
+
+header{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: lavender;
+}
+
+header input[type=text]{
+    border-radius: 20px;
+    margin-right: 10px;
+    color: tan;
+    padding-left: 10px;
+}
+header input[type=submit]{
+    border-radius: 10px;
+    background-color: wheat;
+    color: slateblue;
+}
+
+.album-container{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    width: 100%;
+    background-color: var(--bg-dark-primary);
+}
+.favorite{
+    margin-right: 10px;
+}
